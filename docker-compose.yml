@@ -1,0 +1,18 @@
+# Development project infrastructure generated over the Docker
+version: "3.7"
+
+services:
+  docusaurus:
+    build:
+      context: .
+    ports:
+      - "80:80"
+    environment:
+      - TARGET_UID=1001
+      - TARGET_GID=1001
+      - AUTO_UPDATE=true
+      - WEBSITE_NAME=ROVEEb
+      - TEMPLATE=classic
+      - RUN_MODE=development
+    volumes:
+      - ./docusaurus/:/docusaurus:z

@@ -1,0 +1,4 @@
+2022-04-06 21:06:41,397 INFO Set uid to user 0 succeeded
+2022-04-06 21:06:41,404 INFO supervisord started with pid 89
+2022-04-06 21:06:42,410 INFO spawned: 'docusaurus' with pid 90
+2022-04-06 21:06:44,138 INFO success: docusaurus entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
