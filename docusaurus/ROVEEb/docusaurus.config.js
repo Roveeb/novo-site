@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'ROVEEb',
   tagline: 'Um mundo de conhecimentos',
-  url: 'https://staging.roveeb.com',
+  url: 'https://roveeb.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,7 +52,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutoriis',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/apoie', label: 'Apoiar', position: 'left' },
