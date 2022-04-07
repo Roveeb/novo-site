@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ROVEEb',
+  tagline: 'Um mundo de conhecimentos',
+  url: 'https://staging.roveeb.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'roveeb', // Usually your GitHub org/user name.
+  projectName: 'roveeb-wiki', // Usually your repo name.
 
   presets: [
     [
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,11 +41,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'ROVEEb',
+        // logo: {
+        //   alt: 'ROVEEb Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
@@ -55,8 +55,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://gitlab.com/roveeb/roveeb-wiki',
+            label: 'GitLab',
             position: 'right',
           },
         ],
@@ -65,33 +65,37 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentações',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutoriais',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidade',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Youtube',
+                href: 'https://youtube.com/ROVEEb',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/WmpW72Y',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/roveeb',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/mateusrovedaa',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
               {
                 label: 'Blog',
@@ -99,12 +103,24 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Roveeb',
+              },
+              {
+                label: 'GitLab',
+                href: 'https://gitlab.com/roveeb/',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://facebook.com/roveebcanal',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/roveebcanal',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ROVEEb. Construído com Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
