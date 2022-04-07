@@ -10,7 +10,7 @@ Caso você prefira, pode assistir o tutorial feito em vídeo.
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/TVU_qkelFmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Instalar o Node-RED
+## Instalar o Node-RED
 
 A instalação será feita utilizando um script disponibilizado na própria [documentação](https://nodered.org/docs/getting-started/raspberrypi) do Node-RED.
 
@@ -41,7 +41,7 @@ A instalação será feita utilizando um script disponibilizado na própria [doc
 7. Utilize, caso esteja rodando localmente, a URL http://localhost:1880 para acessar o Node-RED;
 8. Também é possível utilizar o NGINX para poder acessar o Node-RED por um endereço, a configuração você pode encontrar [nesse tópico](https://discourse.nodered.org/t/node-red-server-with-nginx-reverse-proxy-howto-guide/27397).
 
-# Desinstalar o Node-RED
+## Desinstalar o Node-RED
 
 A remoção do Node-RED é simples, mesmo como instalado como um serviço.
 
