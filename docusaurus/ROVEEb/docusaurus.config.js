@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Tutorial',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/pages/nos-apoie', label: 'Apoiar', position: 'left' },
+          { to: '/pages/apoie', label: 'Apoiar', position: 'left' },
           {
             href: 'https://gitlab.com/roveeb/roveeb-wiki',
             label: 'GitLab',
