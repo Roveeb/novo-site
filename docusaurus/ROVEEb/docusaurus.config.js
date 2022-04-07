@@ -40,10 +40,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: true,
-      },
+      
       navbar: {
         title: 'ROVEEb',
         //  logo: {
@@ -57,7 +54,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/pages/nos-apoie', label: 'Apoiar', position: 'left' },
           {
             href: 'https://gitlab.com/roveeb/roveeb-wiki',
             label: 'GitLab',
