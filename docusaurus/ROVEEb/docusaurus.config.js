@@ -40,12 +40,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
       navbar: {
         title: 'ROVEEb',
-        // logo: {
-        //   alt: 'ROVEEb Logo',
-        //   src: 'img/logo.svg',
-        // },
+        //  logo: {
+        //    alt: 'ROVEEb Logo',
+        //    src: 'img/logo.svg',
+        //  },
         items: [
           {
             type: 'doc',
