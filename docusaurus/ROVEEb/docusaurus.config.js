@@ -14,6 +14,22 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   organizationName: 'roveeb', // Usually your GitHub org/user name.
   projectName: 'roveeb-wiki', // Usually your repo name.
 
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      },
+    ],
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -40,7 +56,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
       navbar: {
         title: 'ROVEEb',
         //  logo: {

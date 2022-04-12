@@ -18,6 +18,7 @@ services:
       - ./docusaurus/:/docusaurus:z
   node:
     image: node:16
+    # user: "1001:1001"
     volumes:
       - ./docusaurus/:/docusaurus:z
     working_dir: /docusaurus/ROVEEb
