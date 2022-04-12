@@ -71,6 +71,9 @@ function BlogPostPage(props) {
         isBlogPostPage>
         <BlogPostContents />
       </BlogPostItem>
+      {(nextItem || prevItem) && (
+        <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
+      )}
 
       {!no_comments && (
         <DiscussionEmbed
@@ -84,9 +87,6 @@ function BlogPostPage(props) {
         />
       )}
 
-      {(nextItem || prevItem) && (
-        <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
-      )}
     </BlogLayout>
   );
 }
