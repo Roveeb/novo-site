@@ -22,6 +22,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         // https://github.com/easyops-cn/docusaurus-search-local
         hashed: true,
         language: ["pt"],
+        translations: {
+          "search_placeholder": "Pesquisar",
+          "see_all_results": "Ver todos os resultados",
+          "no_results": "Nada encontrado.",
+          "search_results_for": "Resultados de busca para \"{{ keyword }}\"",
+          "search_the_documentation": "Pesquise tutoriais",
+          "count_documents_found": "{{ count }} tutorial encontrado",
+          "count_documents_found_plural": "{{ count }} tutoriais encontrados",
+          "no_documents_were_found": "Nenhum tutorial encontrado"
+        }
       },
     ],
   ],
