@@ -11,11 +11,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'roveeb', // Usually your GitHub org/user name.
-  projectName: 'roveeb-wiki', // Usually your repo name.
+  organizationName: 'roveeb',
+  projectName: 'roveeb-wiki',
 
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -49,8 +48,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/',
+          editUrl: 'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
