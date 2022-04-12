@@ -71,10 +71,6 @@ function BlogPostPage(props) {
         <BlogPostContents />
       </BlogPostItem>
 
-      {(nextItem || prevItem) && (
-        <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
-      )}
-      
       {!no_comments && (
         <DiscussionEmbed
           shortname='roveda'
@@ -85,6 +81,10 @@ function BlogPostPage(props) {
             language: 'pt_BR',
           }}
         />
+      )}
+
+      {(nextItem || prevItem) && (
+        <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
       )}
     </BlogLayout>
   );
