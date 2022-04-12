@@ -16,3 +16,8 @@ services:
       - RUN_MODE=development
     volumes:
       - ./docusaurus/:/docusaurus:z
+  node:
+    image: node:16
+    volumes:
+      - ./docusaurus/:/docusaurus:z
+    working_dir: /docusaurus/ROVEEb

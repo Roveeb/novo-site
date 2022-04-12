@@ -3,6 +3,7 @@ slug: vpn-e-realmente-util-e-necessario
 title: VPN é realmente útil e necessário?
 authors: [mateusrovedaa]
 tags: [segurança, gratis, open source, proton]
+no_comments: false # for Disqus
 ---
 
 A segurança e a privacidade está cada vez mais em foco nos dias atuais, principalmente por mudanças de leis e pela preoucupação das próprias pessoas usuárias da Internet.
