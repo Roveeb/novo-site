@@ -19,13 +19,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
+        // https://github.com/easyops-cn/docusaurus-search-local
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
+        language: ["pt"],
       },
     ],
   ],
