@@ -1,3 +1,6 @@
+---
+no_comments: false
+---
 # Node-RED
 
 O Node-RED vem crescendo e expandindo suas fronteiras na utilização em integrações e automações. Seu principal diferencial é ser uma ferramenta low-code, tendo uma curva de aprendizado bem baixa e podendo ser utilizada para muitas aplicações.

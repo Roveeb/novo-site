@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+no_comments: true
 ---
 
 # Introdução

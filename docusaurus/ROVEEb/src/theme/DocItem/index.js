@@ -26,7 +26,7 @@ export default function DocItem(props) {
     image,
     keywords,
     hide_title: hideTitle,
-    hide_table_of_contents: hideTableOfContents
+    hide_table_of_contents: hideTableOfContents, no_comments
   } = frontMatter;
   const { description, title } = metadata; // We only add a title if:
   // - user asks to hide it with frontmatter
@@ -106,6 +106,7 @@ export default function DocItem(props) {
         )}
       </div>
 
+      {!no_comments && (
       <DiscussionEmbed
         shortname='roveda'
         config={{
@@ -114,6 +115,7 @@ export default function DocItem(props) {
           language: 'pt_BR',
         }}
       />
+      )}
     </>
   );
 }

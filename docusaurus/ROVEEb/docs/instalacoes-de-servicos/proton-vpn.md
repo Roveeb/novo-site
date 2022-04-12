@@ -1,3 +1,6 @@
+---
+no_comments: false
+---
 # ProtonVPN
 A utilização de uma VPN ou até mesmo empresas que oferecem serviços de VPN são assuntos delicados para serem tratados e o intuito desse post é te mostrar uma VPN gratuita e OpenSource, além de dar um embasamento sobre o assunto.
 
