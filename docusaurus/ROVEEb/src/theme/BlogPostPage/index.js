@@ -77,7 +77,7 @@ function BlogPostPage(props) {
 
       {!no_comments && (
         <DiscussionEmbed
-          shortname='roveda'
+          shortname='roveeb'
           config={{
             url: slug,
             identifier: slug,
