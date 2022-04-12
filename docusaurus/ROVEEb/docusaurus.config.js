@@ -28,9 +28,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           "no_results": "Nada encontrado.",
           "search_results_for": "Resultados de busca para \"{{ keyword }}\"",
           "search_the_documentation": "Pesquise tutoriais",
-          "count_documents_found": "{{ count }} tutorial encontrado",
-          "count_documents_found_plural": "{{ count }} tutoriais encontrados",
-          "no_documents_were_found": "Nenhum tutorial encontrado"
+          "count_documents_found": "{{ count }} resultado encontrado",
+          "count_documents_found_plural": "{{ count }} resultados encontrados",
+          "no_documents_were_found": "Nenhum resultado encontrado"
         }
       },
     ],
