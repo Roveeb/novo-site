@@ -16,6 +16,7 @@ function BlogPostPage(props) {
   const { content: BlogPostContents, sidebar } = props;
   const { frontMatter, assets, metadata } = BlogPostContents;
   const {
+    slug,
     title,
     description,
     nextItem,
