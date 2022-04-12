@@ -50,7 +50,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/blog/',
+            'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
