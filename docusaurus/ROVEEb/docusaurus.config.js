@@ -86,11 +86,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Documentações',
+            title: 'Site',
             items: [
               {
                 label: 'Tutoriais',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Apoiar',
+                to: '/apoie',
+              },
+              {
+                label: 'Início',
+                to: '/',
               },
             ],
           },
@@ -109,19 +121,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Telegram',
                 href: 'https://t.me/roveeb',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/mateusrovedaa',
-              },
             ],
           },
           {
-            title: 'Mais',
+            title: 'Social',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/Roveeb',
@@ -137,6 +141,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Instagram',
                 href: 'https://instagram.com/roveebcanal',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/mateusrovedaa',
               },
             ],
           },

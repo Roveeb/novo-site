@@ -23,11 +23,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='light'] {
+html[data-theme='light'] {
   --ifm-navbar-search-input-placeholder-color: #000;
 }
 
-[data-theme='dark'] {
+html[data-theme='dark'] {
   --ifm-color-primary: #4e89e8;
 }
 

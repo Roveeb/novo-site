@@ -9,3 +9,9 @@
   height: 120px;
   width: 120px;
 }
+
+/* remove a style */
+.noDecoration {
+  color: inherit;
+  text-decoration: inherit;
+}

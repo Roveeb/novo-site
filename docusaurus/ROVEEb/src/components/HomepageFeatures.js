@@ -5,6 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Youtube',
+    link: 'https://youtube.com/ROVEEb',
     Svg: require('../../static/img/youtube.svg').default,
     description: (
       <>
@@ -14,7 +15,8 @@ const FeatureList = [
   },
   {
     title: 'Documentações',
-    Svg: require('../../static/img/note.svg').default,
+    link: '/docs',
+    Svg: require('../../static/img/docs.svg').default,
     description: (
       <>
         Tutoriais em formato de texto para você seguir.
@@ -23,23 +25,24 @@ const FeatureList = [
   },
   {
     title: 'Comunidade',
+    link: 'https://discord.com/invite/WmpW72Y',
     Svg: require('../../static/img/people.svg').default,
     description: (
       <>
-        Networking, ajudas e novos aprendizados em comunidade.
+        Networking, ajudas e novos aprendizados em comunidade. (Discord)
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, link, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3><a className={styles.noDecoration} href={link} target="_blank">{title}</a></h3>
         <p>{description}</p>
       </div>
     </div>
