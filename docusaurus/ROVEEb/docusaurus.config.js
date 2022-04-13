@@ -14,7 +14,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   organizationName: 'roveeb',
   projectName: 'roveeb-wiki',
 
-  themes: [
+  presets: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -33,9 +33,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         }
       },
     ],
-  ],
-
-  presets: [
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
