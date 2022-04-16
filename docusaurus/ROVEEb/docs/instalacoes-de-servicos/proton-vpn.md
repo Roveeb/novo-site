@@ -4,7 +4,7 @@ no_comments: false
 # ProtonVPN
 A utilização de uma VPN ou até mesmo empresas que oferecem serviços de VPN são assuntos delicados para serem tratados e o intuito desse post é te mostrar uma VPN gratuita e OpenSource, além de dar um embasamento sobre o assunto.
 
-## Mas, o que é uma VPN?
+## Mas o que é uma VPN?
 
 Uma VPN é uma rede privada utilizada para proteger a privacidade e melhorar a segurança em uma conexão. Uma VPN não necessariamente é para baixar vídeos ou apenas alterar seu IP, mas também para garantir a segurança em acesso a servidores e/ou serviços.
 
