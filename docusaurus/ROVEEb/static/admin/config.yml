@@ -3,13 +3,13 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-media_folder: "static/img/uploads"
+media_folder: "docusaurus/ROVEEb/static/img/uploads"
 public_folder: "/uploads"
 
 collections:
   - name: "posts"
     label: "Post"
-    folder: "blog"
+    folder: "docusaurus/ROVEEb/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -45,7 +45,7 @@ collections:
   
   - name: "docs"
     label: "Tutoriais"
-    folder: "docs/{{category}}/{{slug}}"
+    folder: "docusaurus/ROVEEb/docs/"
     create: true
     slug: "{{slug}}"
     fields:
