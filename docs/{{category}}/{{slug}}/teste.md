@@ -1,6 +1,6 @@
 ---
 title: Teste
 category: teste
-draft: true
+draft: false
 ---
 teste
