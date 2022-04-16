@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'ROVEEb',
   tagline: 'Um mundo de conhecimentos',
-  url: 'https://staging.roveeb.com',
+  url: 'https://staging--roveebwiki.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
