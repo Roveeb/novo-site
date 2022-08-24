@@ -3,7 +3,7 @@ slug: motivos-que-me-fizeram-mudar-para-o-fedora
 title: Motivos que me fizeram mudar para o Fedora
 authors: [mateusrovedaa]
 tags: [fedora, open source, linux]
-no_comments: false # for Disqus
+comments: true
 ---
 
 

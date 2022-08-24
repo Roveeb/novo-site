@@ -1,0 +1,3 @@
+#!/bin/bash
+
+alias node="docker-compose run --rm node $@"

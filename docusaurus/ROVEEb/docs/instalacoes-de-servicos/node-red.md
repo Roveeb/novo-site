@@ -1,5 +1,5 @@
 ---
-no_comments: false
+comments: true
 ---
 # Node-RED
 

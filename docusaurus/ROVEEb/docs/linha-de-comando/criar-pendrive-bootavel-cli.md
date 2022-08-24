@@ -1,5 +1,5 @@
 ---
-no_comments: false
+comments: true
 ---
 # Criar pendrive bootável pelo terminal
 

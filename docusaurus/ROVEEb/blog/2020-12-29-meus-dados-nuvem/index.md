@@ -3,7 +3,7 @@ slug: como-guardo-meus-dados-na-nuvem
 title: Como guardo meus dados na nuvem
 authors: [mateusrovedaa]
 tags: [nextcloud, dados pessoais, personalizacao, linux, contabo]
-no_comments: false # for Disqus
+comments: true
 ---
 
 ![Nextcloud logo](./nextcloud.png)

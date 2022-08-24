@@ -20,17 +20,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       {
         // https://github.com/easyops-cn/docusaurus-search-local
         hashed: true,
-        language: ["pt"],
-        translations: {
-          "search_placeholder": "Pesquisar",
-          "see_all_results": "Ver todos os resultados",
-          "no_results": "Nada encontrado.",
-          "search_results_for": "Resultados de busca para \"{{ keyword }}\"",
-          "search_the_documentation": "Pesquise tutoriais",
-          "count_documents_found": "{{ count }} resultado encontrado",
-          "count_documents_found_plural": "{{ count }} resultados encontrados",
-          "no_documents_were_found": "Nenhum resultado encontrado"
-        }
+        language: ["pt"]
       },
     ],
   ],
@@ -42,12 +32,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl: 'https://gitlab.com/roveeb/roveeb-wiki/-/tree/main/docusaurus/ROVEEb/',
         },
         theme: {
