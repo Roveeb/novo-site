@@ -84,10 +84,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/blog',
               },
               {
-                label: 'Apoiar',
-                to: '/apoie',
-              },
-              {
                 label: 'Início',
                 to: '/',
               },
