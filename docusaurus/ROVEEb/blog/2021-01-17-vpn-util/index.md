@@ -10,6 +10,8 @@ A segurança e a privacidade está cada vez mais em foco nos dias atuais, princi
 
 ![Segurança em um smartphone](./device.jpg)
 
+<!--truncate-->
+
 Quando falamos de privacidade e segurança, já vem em mente o uso de uma VPN para cuidar de nossos dados pessoais. Porém, esse tipo de assunto é sempre delicado e vou tentar tratar hoje com muita transparência e mostrando o que eu utilizo quando necessário.
 
 ## O que é VPN?

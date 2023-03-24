@@ -14,6 +14,8 @@ O mundo das distribuições GNU/Linux é vasto e nos permite migrar entre vária
 
 O Ubuntu recentemente teve sua versão 22.04 sendo lançada, trazendo várias novidades principalmente no seu visual e no GNOME. Porém, nem tudo são flores. O post de hoje é um relato sobre o motivo de eu ter mudado do Ubuntu para o Fedora.
 
+<!--truncate-->
+
 Eu sou usuário do Ubuntu há algum tempo, já passando pelas versões mais antigas e as mais novas, além do vídeo mais visto do canal ser voltado justamente para o Ubuntu. Continuo com a recomendação de que para pessoas novas e para quem está aprendendo, o Ubuntu é uma excelente distro. Já a nível de servidores, estou começando aos poucos a migrar para o mundo RedHat, mas por enquanto continuo usando Ubuntu. Mas Mateus, quais os motivos então de tu ter mudado a distribuição do teu notebook pessoal, que usa para trabalho, para o Fedora?
 
 ## Motivos da mudança

@@ -10,6 +10,8 @@ comments: true
 
 Cada vez mais é difícil armazenar dados e confiar em serviços que prometem privacidade e segurança, além de disponibilidade. Vivemos em um mundo tecnológico onde alguns serviços oferecem planos gratuitos, mas, será que esses serviços são bons e confiáveis para armazenarmos nossos dados? Pensando nisso, estou escrevendo esse post para mostrar como é a estrutura e como guardo meus arquivos pessoais.
 
+<!--truncate-->
+
 Eu, particularmente, sou muito apegado a privacidade e segurança, optando por buscar utilizar ferramentas e serviços que sejam livres (Software Livre). Isso não só me da total controle dos meus dados como também abre portas para personalização e adaptação conforme o meu uso diário.
 
 Dada essa introdução, vamos falar hoje, basicamente, sobre o [Nextcloud](https://nextcloud.com/), uma nuvem livre que permite uma expanção gigantesca que me atende muito bem nas minhas tarefas. É importante frizar que eu tenho um vídeo lá no canal [ROVEEb](https://www.youtube.com/roveeb) onde falo como montar um servidor próprio utilizando [Nextcloud](https://nextcloud.com/) + Docker + Let's Encrypt, tudo isso de maneira rápida e fácil. Lá também você poderá encontrar um vídeo falando sobre os principais aplicativos que sua nuvem precisa ter.
