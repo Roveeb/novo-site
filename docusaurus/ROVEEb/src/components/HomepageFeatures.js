@@ -25,11 +25,11 @@ const FeatureList = [
   },
   {
     title: 'Comunidade',
-    link: 'https://discord.com/invite/WmpW72Y',
+    link: 'https://t.me/roveeb',
     Svg: require('../../static/img/people.svg').default,
     description: (
       <>
-        Networking, ajudas e novos aprendizados em comunidade. (Discord)
+        Networking, ajudas e novos aprendizados em comunidade. (Telegram)
       </>
     ),
   },
