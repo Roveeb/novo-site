@@ -97,6 +97,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 href: 'https://youtube.com/ROVEEb',
               },
               {
+                label: 'Discord',
+                href: 'https://discord.gg/WmpW72Y',
+              },
+              {
                 label: 'Telegram',
                 href: 'https://t.me/roveeb',
               },

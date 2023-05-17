@@ -1,36 +1,23 @@
-# ROVEEb site
-Site [ROVEEb.com](roveeb.com) integrado com o Cloudflare Pages.
-OBS: Não está sendo atualizada a versão do Docusaurus pelas integrações com comentários.
+# hugoBasicExample
 
-## Informações
-Ambiente de desenvolvimento baseado no 
-https://github.com/awesometic/docker-docusaurus.
+This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
 
-## Ambiente
+# Using
 
-### Variáveis de ambiente
-
-As variáveis são definidas no próprio [docker-compose.yml](docker-compose.yml).
-
-| **Variável** |  **Valor**  |                       **Descrição**                       |
-| :----------: | :---------: | :-------------------------------------------------------: |
-|  TARGET_UID  |    1001     | Usuário de destino para mudar as permissões da instalação |
-|  TARGET_GID  |    1001     |  Grupo de destino para mudar as permissões da instalação  |
-| AUTO_UPDATE  |    true     |           Auto atualizar ao modificar o código            |
-| WEBSITE_NAME |   ROVEEb    |                 Nome do site a ser criado                 |
-|   TEMPLATE   |   classic   |                 Tema/template a ser usado                 |
-|   RUN_MODE   | development |                     Modo de execução                      |
-
-### Executar
-Após fazer o clone do projeto, basta executar um build e um up para o container 
-ser criado e fornecer acesso ao Docusaurus.
-
+1. [Install Hugo](https://gohugo.io/overview/installing/)
+2. Clone this repository
 ```bash
-docker-compose build
+git clone https://github.com/gohugoio/hugoBasicExample.git
+cd hugoBasicExample
 ```
+3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
+4. Run Hugo and select the theme of your choosing
 ```bash
-docker-compose up -d
+hugo server -t YOURTHEME
 ```
-
-A URL que irá servir o docusaurus é http://localhost.
+5. Under `/content/` this repository contains the following:
+- A section called `/post/` with sample markdown content
+- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
+- An `about.md` that is intended to provide the `/about/` page for a theme demo
+6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
 
