@@ -1,0 +1,47 @@
+[[main]]
+  name = "Início"
+  url = ""
+  weight = -110
+
+# social menu links
+
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/mateusrovedaa"
+[[social]]
+  name = "gitlab"
+  type = "social"
+  weight = 2
+  url = "https://gitlab.com/mateusrovedaa"
+[[social]]
+  name = "twitter"
+  weight = 3
+  url = "https://twitter.com/mateusrovedaa"
+[[social]]
+  name = "linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/mateusrovedaa"
+[[social]]
+  name = "youtube"
+  weight = 5
+  url = "https://youtube.com/ROVEEb"
+[[social]]
+  name = "rss"
+  weight = 4
+  url = "index.xml"
+
+# other supported social links
+# name = "youtube"
+# url = "https://www.youtube.com/#"
+# name = "facebook"
+# url = "https://facebook.com/#"
+# name = "instagram"
+# url = "https://instagram.com/#"
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/#"
+# name = "gitlab"
+# url = "https://gitlab.com/#"
+# name = "discord"
+# url = "https://discord.gg/#"
