@@ -13,8 +13,6 @@ pygmentsstyle = "colorful"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = ""
-
 [taxonomies]
 	tag = "tags"
 	category = "categorias"
@@ -40,7 +38,7 @@ googleAnalytics = ""
 	listAuthor = true
 
 	# Add math typesetting with KaTeX (Global with this Param)
-	math = true
+	math = false
 
 	# Optional 80x80 avatar image.
 	#avatar = "/img/me.jpg"

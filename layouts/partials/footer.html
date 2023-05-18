@@ -1,0 +1,5 @@
+{{- if .Site.Copyright }}
+<footer>
+{{ with .Site.Copyright }}{{ . | markdownify }}{{ end }}
+</footer>
+{{- end -}}
