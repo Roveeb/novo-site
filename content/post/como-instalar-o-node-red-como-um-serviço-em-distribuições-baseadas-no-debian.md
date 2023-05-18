@@ -1,16 +1,20 @@
 ---
-title: Instalação do Node-RED
-url: /post/instalar-node-red
+title: Como instalar o Node-RED como um serviço em distribuições baseadas no Debian
+url: /post/como-instalar-o-node-red-como-um-servico-em-distribuicoes-baseadas-no-debian
 author: Mateus Roveda
-date: '2022-05-17'
+date: '2020-12-24T10:05:51-03:00'
 categorias:
+  - node-red
+  - software livre
   - tutoriais
 tags:
-  - node-red
-  - low-code
+  - sysadmin
+  - devops
+  - debian
 ---
 
-# Node-RED
+![Node-RED logo](/images/uploads/node-red.png)
+
 
 O Node-RED vem crescendo e expandindo suas fronteiras na utilização em integrações e automações. Seu principal diferencial é ser uma ferramenta low-code, tendo uma curva de aprendizado bem baixa e podendo ser utilizada para muitas aplicações.
 
@@ -18,11 +22,11 @@ No canal onde eu produzo vídeos, [ROVEEb](https://www.youtube.com/roveeb), esto
 Nesse post, vou ensinar (transcrever) o que ensinei na Aula 02 dessa série, ou seja, a instalação do Node-RED em distribuições baseadas no Debian (Ubuntu, por exemplo) como um serviço, podendo assim ser utilizado em servidores.
 
 Caso você prefira, pode assistir o tutorial feito em vídeo.
+{{< youtube TVU_qkelFmU >}}
 
-<iframe width="100%" height="630" src="https://www.youtube.com/embed/TVU_qkelFmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
-
-## Instalar o Node-RED
+# Instalar o Node-RED
 
 A instalação será feita utilizando um script disponibilizado na própria [documentação](https://nodered.org/docs/getting-started/raspberrypi) do Node-RED.
 
@@ -53,7 +57,7 @@ A instalação será feita utilizando um script disponibilizado na própria [doc
 7. Utilize, caso esteja rodando localmente, a URL http://localhost:1880 para acessar o Node-RED;
 8. Também é possível utilizar o NGINX para poder acessar o Node-RED por um endereço, a configuração você pode encontrar [nesse tópico](https://discourse.nodered.org/t/node-red-server-with-nginx-reverse-proxy-howto-guide/27397).
 
-## Desinstalar o Node-RED
+# Desinstalar o Node-RED
 
 A remoção do Node-RED é simples, mesmo como instalado como um serviço.
 
@@ -86,4 +90,3 @@ A remoção do Node-RED é simples, mesmo como instalado como um serviço.
    ```
 
 // see you later
-

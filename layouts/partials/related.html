@@ -1,0 +1,9 @@
+{{ $related := .Site.RegularPages.RelatedIndices . "tags" "categorias" | first 5 }}
+{{ with $related }}
+<h3>Veja também</h3>
+<ul class="related-posts">
+	{{ range . }}
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	{{ end }}
+</ul>
+{{ end }}

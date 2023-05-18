@@ -1,27 +1,28 @@
 ---
-title: Como instalar a ProtonVPN
-url: /post/como-instalar-protonvpn
+title: Como instalar a ProtonVPN no GNU/Linux
+url: /post/como-instalar-a-protonvpn-no-gnu-linux
 author: Mateus Roveda
-date: '2022-05-17'
+date: '2021-03-19T22:18:49-03:00'
 categorias:
+  - vpn
+  - segurança
+  - gnu/linux
   - tutoriais
 tags:
-  - terminal
-  - vpn
+  - seguranca
   - protonvpn
-  - segurança
 ---
-
-# ProtonVPN
 A utilização de uma VPN ou até mesmo empresas que oferecem serviços de VPN são assuntos delicados para serem tratados e o intuito desse post é te mostrar uma VPN gratuita e OpenSource, além de dar um embasamento sobre o assunto.
 
-## Mas o que é uma VPN?
+# Mas, o que é uma VPN?
 
 Uma VPN é uma rede privada utilizada para proteger a privacidade e melhorar a segurança em uma conexão. Uma VPN não necessariamente é para baixar vídeos ou apenas alterar seu IP, mas também para garantir a segurança em acesso a servidores e/ou serviços.
 
+![ilustração que mostra uma vpn e para que é utilizada](/images/uploads/vpn.jpg)
+
 Lembrando que esse texto expressa minha opinão e usabilidade de uma ferramenta que pode comprometer dados pessoais. Então o uso precisa ser com muito cuidado e responsabilidade e por sua conta e risco.
 
-### Um pouco mais sobre a ProtonVPN
+## Um pouco mais sobre a ProtonVPN
 
 A ProtonVPN é mantida pela Proton Technologies, a mesma empresa conhecida pelo ProtonMail e que está desenvolvendo o Proton Drive (que gerou algumas controversas). Além dos dados serem movimentados na Suiça, ou seja, sem leis de armazenamento e monitoramento de dados, a Proton é conhecida pela confiabilidade e segurança entregada aos seus usuários.
 
@@ -31,15 +32,17 @@ Entre os pontos positivos estão o Secure Core, que prioriza os servidores em pa
 
 Entre os pontos negativos, podemos citar o alto preço e o suporte que pode não ser muito bom.
 
-## Como instalar no GNU/Linux
+![protonvpn interface em um notebook e celular](/images/uploads/downloads-devices.jpg)
+
+# Como instalar no GNU/Linux
 
 A ProtonVPN possui uma [documentação](https://protonvpn.com/support/official-linux-client/) bem detalha para várias distribuições diferentes.
 
 Além disso, criei um vídeo ensinando a como fazer essa instalação.
 
-<iframe width="100%" height="630" src="https://www.youtube.com/embed/sgrPtWjuTzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube sgrPtWjuTzo>}}
 
-### Ubuntu/Debian/Linux Mint/Kali Linux/ParrotOS
+## Ubuntu/Debian/Linux Mint/Kali Linux/ParrotOS
 
 Para distribuições baseadas no Debian precisamos rodar os seguintes comandos:
 
@@ -59,7 +62,7 @@ sudo add-apt-repository 'deb https://repo.protonvpn.com/debian unstable main'
 sudo apt-get update && sudo apt-get install protonvpn
 ```
 
-### Fedora 33
+## Fedora 33
 
 Para a distribuição Fedora 33 utilizamos esses comandos:
 
@@ -91,7 +94,7 @@ Cole dentro desse arquivo
 sudo dnf update && sudo dnf install protonvpn
 ```
 
-## Como utilizar
+# Como utilizar
 
 O primeiro passo é realizar login com as suas informações, ou seja, com usuário e senha.
 
@@ -111,7 +114,7 @@ Para desconectar da VPN também é simples.
 protonvpn-cli disconnect
 ```
 
-## Considerações finais
+# Considerações finais
 
 O plano gratuito pode ser utilizado principalmente para garantir a privacidade em conexões em redes desconhecidas (como cafés, restaurantes, bibliotecas), porém os planos pagos dessa VPN podem pesar para o seu bolso, além de existirem opções mais baratas no mercado.
 

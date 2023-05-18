@@ -1,11 +1,14 @@
 ---
-slug: criar-pendrive-bootavel-terminal
 title: Como criar pendrive bootável pelo terminal
-description: Como criar pendrive bootável pelo terminal
-authors: Mateus Roveda
-categories: [tutorial]
-tags: [terminal, pendrive, bootavel]
-date: 2022-05-17
+url: /post/criar-pendrive-bootavel-terminal
+author: Mateus Roveda
+date: '2022-05-17'
+categorias:
+  - tutoriais
+tags:
+  - terminal
+  - pendrive
+  - bootavel
 ---
 
 # Criar pendrive bootável pelo terminal
