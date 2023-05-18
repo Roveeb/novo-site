@@ -7,7 +7,7 @@ theme = "vitae"
 paginate = 5
 enableRobotsTXT = true
 
-copyright = "© Copyright | ROVEEb | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+copyright = "[Me envie um e-mail](mailto:contato@roveeb.com) | © Copyright | ROVEEb | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
