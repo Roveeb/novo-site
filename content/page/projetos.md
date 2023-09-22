@@ -51,6 +51,8 @@ Materias e entrevistas sobre o projeto
 - [Jornal do Almoço](https://www.instagram.com/p/Cxa9N96LMht/)
 - [Rádio Gaúcha](https://soundcloud.com/radiogaucha/mateus-roveda-engenheiro-de-software-e-um-dos-idealizadores-do-pets-vale-do-taquari-20092023?si=5e261549fd8a4b289bffe8a2efec0a69&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 - [Univates - Professor, estudante e diplomado da Univates criam portal para ajudar na localização de animais perdidos durante enchente](https://www.univates.br/noticia/34253-professor-estudante-e-diplomado-da-univates-criam-portal-para-ajudar-na-localizacao-de-animais-perdidos-durante-enchente)
+- [Record RS TV](https://www.youtube.com/watch?v=s00s_EJ2pm4)
+- [Grupo A Hora - Em busca da solução](https://grupoahora.net.br/conteudos/2023/09/22/numero-de-animais-em-abrigos-cresce-apos-a-enchente/)
 
 ## [Prefa](https://prefa.digital)
 
