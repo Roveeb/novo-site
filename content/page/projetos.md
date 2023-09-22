@@ -9,6 +9,7 @@ commentable = true
 ## Acesso rápido
 - [Pets Vale do Taquari](#pets-vale-do-taquari)
 - [Prefa](#prefa)
+  - [Mídia](#mídia-1)
 - [Universidade Brasileira Livre](#universidade-brasileira-livre)
 - [municipios.dev](#municipiosdev)
 - [ROVEEb](#roveeb)
@@ -52,9 +53,22 @@ Materias e entrevistas sobre o projeto
 - [Rádio Gaúcha](https://soundcloud.com/radiogaucha/mateus-roveda-engenheiro-de-software-e-um-dos-idealizadores-do-pets-vale-do-taquari-20092023?si=5e261549fd8a4b289bffe8a2efec0a69&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 - [Univates - Professor, estudante e diplomado da Univates criam portal para ajudar na localização de animais perdidos durante enchente](https://www.univates.br/noticia/34253-professor-estudante-e-diplomado-da-univates-criam-portal-para-ajudar-na-localizacao-de-animais-perdidos-durante-enchente)
 
-## Prefa
+## [Prefa](https://prefa.digital)
 
-TODO
+Empresa com foco em desenvolvimento de soluções inteligentes para governo. Originada do trabalho de conclusão de curso dos alunos Zeno Sbardellotto Júnior e Mateus Roveda, com orientação do Fabrício Pretto.
+
+![Prefa Digital](/images/uploads/prefadigital.png)
+
+A Prefa visa tornar as rotinas das pessoas mais práticas e simples. Por enquanto, dois produtos estão em desenvolvimento:
+- **Prefa 156**: Plataforma de comunicação e de centralização de informações e solicitações
+- **LOGI**: Ferramenta para auxiliar na entrega de doações. Criado para auxiliar o Vale do Taquari na enchente de setembro de 2023.
+
+### Mídia
+- [Univates - Estudantes criam solução tecnológica para Prefeituras](https://www.univates.br/noticia/33390-estudantes-criam-solucao-tecnologica-para-prefeituras)
+- [Prefeitura POA - Anunciadas as 15 startups selecionadas para o Acelera X – POA inovadora](https://prefeitura.poa.br/gi/noticias/anunciadas-15-startups-selecionadas-para-o-acelera-x-poa-inovadora)
+- [Pro_move Lajeado - Ideias Selecionadas](https://www.promovelajeado.com.br/_files/ugd/b0b896_c09d379bacaa486da2cea3304641532e.pdf)
+
+![Prefa 156](/images/uploads/prefa156.png)
 
 ## Universidade Brasileira Livre
 
