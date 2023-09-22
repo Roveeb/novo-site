@@ -9,7 +9,6 @@ commentable = true
 ## Acesso rápido
 - [Pets Vale do Taquari](#pets-vale-do-taquari)
 - [Prefa](#prefa)
-  - [Mídia](#mídia-1)
 - [Universidade Brasileira Livre](#universidade-brasileira-livre)
 - [municipios.dev](#municipiosdev)
 - [ROVEEb](#roveeb)
@@ -63,6 +62,7 @@ A Prefa visa tornar as rotinas das pessoas mais práticas e simples. Por enquant
 - **Prefa 156**: Plataforma de comunicação e de centralização de informações e solicitações
 - **LOGI**: Ferramenta para auxiliar na entrega de doações. Criado para auxiliar o Vale do Taquari na enchente de setembro de 2023.
 
+<!-- omit in toc -->
 ### Mídia
 - [Univates - Estudantes criam solução tecnológica para Prefeituras](https://www.univates.br/noticia/33390-estudantes-criam-solucao-tecnologica-para-prefeituras)
 - [Prefeitura POA - Anunciadas as 15 startups selecionadas para o Acelera X – POA inovadora](https://prefeitura.poa.br/gi/noticias/anunciadas-15-startups-selecionadas-para-o-acelera-x-poa-inovadora)
@@ -70,18 +70,39 @@ A Prefa visa tornar as rotinas das pessoas mais práticas e simples. Por enquant
 
 ![Prefa 156](/images/uploads/prefa156.png)
 
-## Universidade Brasileira Livre
+## [Universidade Brasileira Livre](https://ulivre.dev)
 
-TODO
+Organização sem fins lucrativos fundada em 2021 que organiza o conteúdo online em português para aumentar o acesso de Brasileiros a educação.
 
-## municipios.dev
+O projeto nasceu inspirado na OSSU e foi criado pelo Camilo de Cunha Azevedo.
 
-TODO
+Já conta com mais de 10.000 estrelas no Github e diversos estudantes consumindo os materiais.
 
-## ROVEEb
+![ULivre](/images/uploads/ulivre.png)
 
-TODO
+<!-- omit in toc -->
+### Mídia
+- [Universidade Livre: Um caminho para a educação autodidata em Ciência da Computação](https://plus.diolinux.com.br/t/universidade-livre-um-caminho-para-a-educacao-autodidata-em-ciencia-da-computacao/37540)
+## [municipios.dev](https://github.com/mateusrovedaa/municipios.dev)
 
-## Sorteador
+API para retornar informações do portal https://www.ibge.gov.br/cidades-e-estados/ e pesquisar o website de prefeituras, para facilitar quem precisa dessas informações.
 
-TODO
+![municipios.dev](/images/uploads/municipiosdev.png)
+
+## [ROVEEb](https://roveeb.com)
+
+Nasceu como um canal no youtube no dia 07/03/2020. De lá para cá, cresceu e já conta com mais de 8.000 inscritos e diversos vídeos de diversas áreas. Além disso, o site em que você está lendo faz parte dessa comunidade, com posts e informações para auxiliar na área da TI e, principalmente, em software livre.
+
+![ROVEEb](/images/uploads/roveeb.png)
+
+- [Canal no Youtube](https://youtube.com/ROVEEb)
+
+## [Sorteador](https://github.com/mateusrovedaa/sorteador)
+
+Sistema de sorteio criado para o Tech Talks Day, um evento organizado pelo Diretório Acadêmico da Univates.
+
+Essa aplicação está construida no formato de API e Front-end, utiliza da linguagem TypeScript e do Sequelize para comunicação com banco de dados.
+
+As pessoas que estão no evento colocam seus nomes e, aleatóriamente, são sorteadas.
+
+![sorteador](/images/uploads/sorteador.png)
