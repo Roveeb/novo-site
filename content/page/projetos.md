@@ -1,20 +1,13 @@
----
-title: "Projetos"
-url: /post/projetos
-date: 2023-09-21T20:18:40-03:00
-draft: true
-author: Mateus Roveda
-categorias:
- - projetos
-tags:
- - open-source
- - pessoal
- - comunidade
----
++++
+title = "Projetos"
+description = "Projetos criados"
+aliases = ["projects","projetos"]
+commentable = true
++++
 
-Acesso rápido
+<!-- omit in toc -->
+## Acesso rápido
 - [Pets Vale do Taquari](#pets-vale-do-taquari)
-  - [Infraestrutura](#infraestrutura)
 - [Prefa](#prefa)
 - [Universidade Brasileira Livre](#universidade-brasileira-livre)
 - [municipios.dev](#municipiosdev)
@@ -25,8 +18,11 @@ Acesso rápido
 
 O [Pets Vale do Taquari](petsvaledotaquari.com.br) é um projeto criado em 6h em parceria com o Zeno Sbardellotto Júnior e o Fabrício Pretto. Esse projeto foi pensado para ajudar a os animaizinhos atingidos pelas enchentes de setembro que o Vale do Taquari (RS) sofreu e é totalmente voluntário.
 
+![petsvaledotaquari.com.br](/images/uploads/petsvaledotaquari.png)
+
 Já conta com mais de 1000 seguidores no Instagram, mais de 6000 visitantes únicos e vários pets encontrados.
 
+<!-- omit in toc -->
 ### Infraestrutura
 - **Strapi CMS**: gerenciar os dados
 - **PostgreSQL**: banco de dados

@@ -84,9 +84,14 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Apoie"
-url = "/page/support-us"
+name = "Projetos"
+url = "/page/projects"
 weight = 2
+
+#[[menu.main]]
+#name = "Apoie"
+#url = "/page/support-us"
+#weight = 2
 
 [[menu.main]]
 name = "Tutoriais"
